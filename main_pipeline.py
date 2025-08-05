@@ -252,7 +252,7 @@ def validate_pipeline(df: pd.DataFrame) -> bool:
         print(f"An unexpected error occurred during validation: {e}")
         return False
 
-# --- 5. Data Storage ---
+
 def store_data(df: pd.DataFrame, db_name: str, table_name: str):
     """
     Stores the processed DataFrame into a SQLite database.
